@@ -1,5 +1,5 @@
 Proje Adı: Acil Durum Müdahale Sistemi
-1. Proje Özeti
+1. Proje Özeti : \n
  
 Bu projede, şehirde rastgele oluşan acil durumlara (yangın, cinayet vb.) en kısa sürede müdahale edebilecek bir sistem geliştirildi. Çağrılar aciliyet derecesine göre önceliklendirildi ve mahalle ile acil birimler arası en kısa yol, Dijkstra algoritması ile hesaplandı.
 3. Kullanılan Veri Yapıları ve Algoritmalar
