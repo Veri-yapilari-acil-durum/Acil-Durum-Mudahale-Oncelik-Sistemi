@@ -2,7 +2,7 @@
 
 ## Proje Özeti
 Bu projede, şehirde rastgele oluşan acil durumlara (yangın, cinayet vb.) en kısa sürede müdahale edebilecek bir sistem geliştirilmiştir.  
-Çağrılar aciliyet derecesine göre önceliklendirilmektedir ve mahalle ile acil birimler arasındaki en kısa yol, **Dijkstra algoritması** ile hesaplanmaktadır.
+Çağrılar aciliyet derecesine göre önceliklendirilmektedir ve mahalle ile acil birimler arasındaki en kısa yol, Dijkstra algoritması ile hesaplanmaktadır.
 
 
 
@@ -31,7 +31,7 @@ Bu projede, şehirde rastgele oluşan acil durumlara (yangın, cinayet vb.) en k
 
 ---
 
-## ⏱Zaman Karmaşıklığı Özeti
+## Zaman Karmaşıklığı Özeti
 
 | İşlem                   | Zaman Karmaşıklığı       |
 |------------------------|--------------------------|
