@@ -15,15 +15,15 @@ Bu projede, şehirde rastgele oluşan acil durumlara (yangın, cinayet vb.) en k
 
 ### Graph + Dijkstra Algoritması
 - Mahalleler arası mesafeleri ve bağlantıları temsil eder. Tüm kenarlar çift yönlü ve ağırlıklıdır.
-- **Amaç:** Mahalleden en yakın acil birimi bulmak.
+- Amaç: Mahalleden en yakın acil birimi bulmak.
 - Karmaşıklık: **O((V + E) log V)**
 
 ### Queue (FIFO)
 - İşlenmiş çağrıların sırasını korur.
 - Sistem geçmiş verilerin izlenebilirliğini sağlar.
 - Karmaşıklık:
-  - `Enqueue`: **O(1)**
-  - `Dequeue`: **O(1)**
+  - Enqueue: **O(1)**
+  - Dequeue: **O(1)**
 
 ### PriorityQueue (Dijkstra içinde)
 - En kısa yolu bulurken minimum mesafeli düğümün seçilmesi için kullanılır.
@@ -33,8 +33,8 @@ Bu projede, şehirde rastgele oluşan acil durumlara (yangın, cinayet vb.) en k
 
 ## ⏱Zaman Karmaşıklığı Özeti
 
-| İşlem                    Zaman Karmaşıklığı       |
-
+| İşlem                   | Zaman Karmaşıklığı       |
+|------------------------|--------------------------|
 | Çağrı oluşturma        | O(log n)                 |
 | En yakın birimi bulma  | O((V + E) log V)         |
 | Çağrı işleme           | O(log n)                 |
